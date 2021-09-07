@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight : normal;
+    background-image: url("../image/messy-pizza.png") ;
+    /* background-repeat: no-repeat; */
+    background-size:cover;
+}
+
+header{
+    border-bottom : 3px solid ;
+    border-color: crimson;
+    width : 100%;
+    overflow: hidden;
+    background-color :brown;
+    opacity: .75;
+    padding-top: 10px;
+}
+
+header nav{
+    
+    float: right;
+    
+}
+
+header a {
+    color : #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+    /* list-style-type: none; */
+}
+
+header li{
+    display:inline;
+    float: left;
+    padding: 0 15px 0 15px;
+}
+
+section{
+    min-height: 70vh;
+    padding-top: 100px;
+    
+}
+
+
+section aside{
+    float: left;
+    width: 250px;
+    min-height: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section aside h2 {
+    color: #ffffff;
+    text-align: center;
+    size: 24px;
+}
+
+
+footer{
+    color: #ffffff;
+    background-color: #000000;
+    opacity: 0.8;
+    text-align: center;
+    height: 20vh;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    
+    width : 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.box{
+    
+    float: right;
+    width: 180px;
+    box-sizing: border-box;
+    color: #000000;
+    background-color: #ffffff ;  
+    opacity: 0.5;
+    text-align: center;
+    padding : 25px;
+    border-radius: 15px;;
+    margin: 10px;
+    
+}
+
+.box:hover{
+    float: right;
+    width: 180px;
+    box-sizing: border-box;
+    color: #000000;
+    background-color: #ffffff ;  
+    opacity: 1;
+    text-align: center;
+    padding : 25px;
+    border-radius: 15px;;
+    margin: 10px;
+}
+
+.box h1{
+    margin: 0;
+}
+
+
+#logo{
+ 
+    float: left;
+    /* padding: 15px 5px; */
+    box-sizing: border-box;
+    
+}
+
+#boxes{
+    float: right;
+    width: 65%;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#boxes .box img{
+    height: 100px;
+    width: 100px;
+    
+    
+}
+
